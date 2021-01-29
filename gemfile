@@ -1,0 +1,11 @@
+# file where we load all dependencies
+
+source "https://rubygems.org"
+
+gem "rspec"
+gem 'pry'
+gem 'sqlite3'
+gem "rake"
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'require_all'
