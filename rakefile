@@ -1,0 +1,12 @@
+# load the environment 
+require_relative './config/environment'
+
+require 'sinatra/activerecord/rake'
+
+# task :hello do 
+#     puts "Hey hey hey!!"
+# end 
+
+task :console do 
+    Pry.start
+end 
