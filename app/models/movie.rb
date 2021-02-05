@@ -1,6 +1,6 @@
 class Movie < ActiveRecord::Base
-    # .find
-    # .save
-    # .find_by
-    # .create
+  
+    belongs_to :genre
+    belongs_to :director
+
 end 
